@@ -1,0 +1,7 @@
+CREATE TABLE DEPARTMENT (
+    DepartmentName CHARACTER(35) NOT Null,
+    BudgetCode CHARACTER(30) NOT Null,
+    OfficeNumber CHARACTER(15) NOT Null,
+    DepartmentPhone CHARACTER(12) NOT Null,
+    CONSTRAINT DEPARTMENT_PK PRIMARY KEY(DepartmentName)
+    );
