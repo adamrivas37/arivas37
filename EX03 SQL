@@ -32,16 +32,16 @@ CREATE TABLE PROJECT(
     ON UPDATE CASCADE
     );
 CREATE TABLE ASSIGNMENT(
-    ProjectID Int NOT Null,
-    EmployeeNumber Int NOT Null,
+    ProjectID Int Not Null,
+    EmployeeNumber Int Not Null,
     HoursWorked Numeric(6,2),
-    CONSTRAINT PK_ASSIGNMENT PRIMARY KEY(ProjectID, EmployeeNumber),
-    CONSTRAINT FK_ASSIGN_ASSIGN FOREIGN KEY (ProjectID)
-    REFERENCES PROJECT (ProjectID
-                        ON UPDATE NO ACTION
-                        ON DELETE CASCADE,
+    CONSTRAINT PK_ASSIGNMENT PRIMARY KEY (ProjectID, EmployeeNumber),
+    CONSTRAINT FK_ASSIGN_PROJ FOREIGN KEY (ProjectID)
+    REFERENCES PROJECT (ProjectID)
+    ON UPDATE NO ACTION
+    ON DELETE CASCADE,
     CONSTRAINT FK_ASSIGN_EMP FOREIGN KEY (EmployeeNumber)
-                        REFERENCES EMPLOYEE(EmployeeNumber)
-                        ON UPDATE NO ACTION
-                        ON DELETE NO ACTION,
- );
+    REFERENCES EMPLOYEE (EmployeeNumber)
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    );
