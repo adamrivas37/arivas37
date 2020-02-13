@@ -1,4 +1,4 @@
-INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Mary', 'Jacobs', 'Administration', 'CEO', '360-285-8110', 'Mary.Jacobs@WP.com');
+INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Mary', 'Jacobs', 'Administration', 'CEO', Null, '360-285-8110', 'Mary.Jacobs@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Rosaline', 'Jackson', 'Administration', 'Admin Assistant', 1, '360-285-8120', 'Rosaline.Jackson@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Richard', 'Bandalone', 'Legal', 'Attorney', 1, '360-285-8210', 'Richard.Bandalone@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('George', 'Smith', 'Human Resources', 'HR3', 1, '360-285-8310', 'George.Smith@WP.com');
@@ -10,14 +10,14 @@ INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, Off
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Ken', 'Numoto', 'Sales and Marketing', 'SM3', 1, '360-285-8510', 'Ken.Numoto@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Linda', 'Granger', 'Sales and Marketing', 'SM2', 10, '360-285-8520', 'Linda.Granger@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('James', 'Nestor', 'InfoSystems', 'CIO', 1, '360-285-8610', 'James.Nestor@WP.com');
-INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Rick', 'Brown', 'InfoSystems', 'IS2', 12, 'Rick.Brown@WP.com');
+INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, EmailAddress) VALUES('Rick', 'Brown', 'InfoSystems', 'IS2', 12, 'Rick.Brown@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Mike', 'Nguyen', 'Research and Development', 'CTO', 1, '360-285-8710', 'Mike.Nguyen@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Jason', 'Sleeman', 'Research and Development', 'RD3', 14, '360-285-8720', 'Jason.Sleeman@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Mary', 'Smith', 'Production', 'OPS3', 1, '360-285-8810', 'Mary.Smith@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Tom', 'Jackson', 'Production', 'OPS2', 16, '360-285-8830', 'Tom.Jackson@WP.com');
 INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('George', 'Jones', 'Production', 'OPS2', 17, '360-285-8830', 'George.Jones@WP.com');
-INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Julia', 'Hayakawa', 'Production', 'OPS1', 17, 'Julia.Hayakawa@WP.com');
-INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, OfficePhone, EmailAddress) VALUES('Sam', 'Stewart', 'Production', 'OPS1', 17, 'Sam.Stewart@WP.com');
+INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, EmailAddress) VALUES('Julia', 'Hayakawa', 'Production', 'OPS1', 17, 'Julia.Hayakawa@WP.com');
+INSERT INTO EMPLOYEE (FirstName, LastName, Department, Position, Supervisor, EmailAddress) VALUES('Sam', 'Stewart', 'Production', 'OPS1', 17, 'Sam.Stewart@WP.com');
 
 
 INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Administration', 'BC-100-10', 'BLDG01-210', '360-285-8100');
