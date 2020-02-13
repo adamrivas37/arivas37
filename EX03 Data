@@ -1,0 +1,1 @@
+INSERT INTO EMPLOYEE VALUES( Null, 'Mike', 'Nguyen', 'Research and Development', 'CTO', 1, '360-285-8710', 'Mike.Nguyen@WP.com');
