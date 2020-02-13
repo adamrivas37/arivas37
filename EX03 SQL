@@ -19,3 +19,15 @@ CREATE TABLE EMPLOYEE(
     REFERENCES DEPARTMENT(DepartmentName)
     ON UPDATE CASCADE
     ); 
+CREATE TABLE PROJECT(
+    ProjectID Int NOT Null,
+    ProjectName CHARACTER(50) NOT Null,
+    Department CHARACTER(35) NOT Null,
+    MaxHours Numeric(8,2) NOT Null DEFAULT 100,
+    StartDate Date,
+    EndDate Date,
+    CONSTRAINT PK_PROJECT PRIMARY KEY(ProjectID),
+    CONSTRAINT FK_PROJ_DEPART FOREIGN KEY(Department)
+    REFERENCES DEPARTMENT(DepartmentName)
+    ON UPDATE CASCADE
+    );
