@@ -30,11 +30,11 @@ INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `Departm
 INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Research and Development', 'BC-800-10', 'BLDG02-250', '360-285-8700');
 INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Production', 'BC-900-10', 'BLDG02-110', '360-285-8800');
 
-INSERT INTO PROJECT ('ProjectID', 'ProjectName', 'Department', 'MaHours', 'StartDate', 'EndDate') VALUES(1100, '2019 Q3 Marketing Plan', 'Sales and Marketing', 135.00, '2019-05-10', '2019-06-15');
-INSERT INTO PROJECT ('ProjectID', 'ProjectName', 'Department', 'MaHours', 'StartDate', 'EndDate') VALUES(1000, '2019 Q3 Production Plan', 'Production', 100.00, '2019-05-10', '2019-06-15');
-INSERT INTO PROJECT ('ProjectID', 'ProjectName', 'Department', 'MaHours', 'StartDate', 'EndDate') VALUES(1200, '2019 Q3 Portfolio Analysis', 'Finance', 120.00, '2019-07-10', '2019-07-25');
-INSERT INTO PROJECT ('ProjectID', 'ProjectName', 'Department', 'MaHours', 'StartDate', 'EndDate') VALUES(1300, '2019 Q3 Tax Preparation', 'Accounting', 145.00, '2019-08-10', '2019-10-15');
-INSERT INTO PROJECT ('ProjectID', 'ProjectName', 'Department', 'MaHours', 'StartDate', 'EndDate') VALUES(1000, '2019 Q4 Production Plan', 'Production', 100.00, '2019-08-10', '2019-09-15');
-INSERT INTO PROJECT ('ProjectID', 'ProjectName', 'Department', 'MaHours', 'StartDate', 'EndDate') VALUES(1000, '2019 Q4 Marketing Plan', 'Sales and Marketing', 135.00, '2019-08-10', '2019-09-15');
-INSERT INTO PROJECT ('ProjectID', 'ProjectName', 'Department', 'MaHours', 'StartDate') VALUES(1600, '2019 Q4 Portfolio Analysis', 'Finance', 140.00, '2019-10-05');
+INSERT INTO PROJECT (ProjectID, ProjectName, Department, MaxHours, StartDate, EndDate) VALUES(1100, '2019 Q3 Marketing Plan', 'Sales and Marketing', 135.00, '2019-05-10', '2019-06-15');
+INSERT INTO PROJECT (ProjectID, ProjectName, Department, MaxHours, StartDate, EndDate) VALUES(1000, '2019 Q3 Production Plan', 'Production', 100.00, '2019-05-10', '2019-06-15');
+INSERT INTO PROJECT (ProjectID, ProjectName, Department, MaxHours, StartDate, EndDate) VALUES(1200, '2019 Q3 Portfolio Analysis', 'Finance', 120.00, '2019-07-10', '2019-07-25');
+INSERT INTO PROJECT (ProjectID, ProjectName, Department, MaxHours, StartDate, EndDate) VALUES(1300, '2019 Q3 Tax Preparation', 'Accounting', 145.00, '2019-08-10', '2019-10-15');
+INSERT INTO PROJECT (ProjectID, ProjectName, Department, MaxHours, StartDate, EndDate) VALUES(1000, '2019 Q4 Production Plan', 'Production', 100.00, '2019-08-10', '2019-09-15');
+INSERT INTO PROJECT (ProjectID, ProjectName, Department, MaxHours, StartDate, EndDate) VALUES(1000, '2019 Q4 Marketing Plan', 'Sales and Marketing', 135.00, '2019-08-10', '2019-09-15');
+INSERT INTO PROJECT (ProjectID, ProjectName, Department, MaxHours, StartDate) VALUES(1600, '2019 Q4 Portfolio Analysis', 'Finance', 140.00, '2019-10-05');
 
