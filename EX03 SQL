@@ -39,4 +39,9 @@ CREATE TABLE ASSIGNMENT(
     CONSTRAINT FK_ASSIGN_ASSIGN FOREIGN KEY (ProjectID)
     REFERENCES PROJECT (ProjectID
                         ON UPDATE NO ACTION
-                        ON DELETE CASCADE
+                        ON DELETE CASCADE,
+    CONSTRAINT FK_ASSIGN_EMP FOREIGN KEY (EmployeeNumber)
+                        REFERENCES EMPLOYEE(EmployeeNumber)
+                        ON UPDATE NO ACTION
+                        ON DELETE NO ACTION,
+ );
