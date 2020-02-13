@@ -5,3 +5,17 @@ CREATE TABLE DEPARTMENT (
     DepartmentPhone CHARACTER(12) NOT Null,
     CONSTRAINT DEPARTMENT_PK PRIMARY KEY(DepartmentName)
     );
+CREATE TABLE EMPLOYEE(
+    EmployeeNumber Int NOT Null AUTO_INCREMENT,
+    FirstName CHARACTER(25) NOT Null,
+    LastName CHARACTER(25) NOT Null,
+    Department CHARACTER(35) NOT Null DEFAULT 'Human Resources',
+    Position CHARACTER(35),
+    Supervisor Int,
+    OfficePhone CHARACTER(12),
+    EmailAddress varchar(100) NOT Null UNIQUE,
+    CONSTRAINT EMPLOYEE_PK PRIMARY KEY(EmployeeNumber),
+    CONSTRAINT FK_EMP_DEPART FOREIGN KEY(Department)
+    REFERENCES DEPARTMENT(DepartmentName)
+    ON UPDATE CASCADE
+    ); 
