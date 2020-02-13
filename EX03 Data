@@ -1,1 +1,19 @@
 INSERT INTO EMPLOYEE VALUES( Null, 'Mike', 'Nguyen', 'Research and Development', 'CTO', 1, '360-285-8710', 'Mike.Nguyen@WP.com');
+INSERT INTO EMPLOYEE VALUES('Administration', 'BC-100-10', 'BLDG01-210', '360-285-8100');
+INSERT INTO EMPLOYEE VALUES('Legal', 'BC-200-10', 'BLDG01-220', '360-285-8200');
+INSERT INTO EMPLOYEE VALUES('Human Resources', 'BC-300-10', 'BLDG01-230', '360-285-8300');
+INSERT INTO EMPLOYEE VALUES('Finance', 'BC-400-10', 'BLDG01-110', '360-285-8400');
+INSERT INTO EMPLOYEE VALUES('Accounting', 'BC-400-10', 'BLDG01-110', '360-285-8405');
+INSERT INTO EMPLOYEE VALUES('Sales and Marketing', 'BC-600-10', 'BLDG01-250', '360-285-8500');
+INSERT INTO EMPLOYEE VALUES('InfoSystems', 'BC-700-10', 'BLDG02-210', '360-285-8600');
+INSERT INTO EMPLOYEE VALUES('Research and Development', 'BC-800-10', 'BLDG02-250', '360-285-8700');
+INSERT INTO EMPLOYEE VALUES('Production', 'BC-900-10', 'BLDG02-110', '360-285-8800');
+INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Administration', 'BC-100-10', 'BLDG01-210', '360-285-8100')
+INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Legal', 'BC-200-10', 'BLDG01-220', '360-285-8200')
+INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Human Resources', 'BC-300-10', 'BLDG01-230', '360-285-8300')
+INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Finance', 'BC-400-10', 'BLDG01-110', '360-285-8400')
+INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Accounting', 'BC-500-10', 'BLDG01-120', '360-285-8405')
+INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Sales and Marketing', 'BC-600-10', 'BLDG01-250', '360-285-8500')
+INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('InfoSystems', 'BC-700-10', 'BLDG02-210', '360-285-8600')
+INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Research and Development', 'BC-800-10', 'BLDG02-250', '360-285-8700')
+INSERT INTO DEPARTMENT (`DepartmentName`, `BudgetCode`, `OfficeNumber`, `DepartmentPhone`) VALUES('Production', 'BC-900-10', 'BLDG02-110', '360-285-8800')
