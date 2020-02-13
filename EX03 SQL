@@ -31,3 +31,12 @@ CREATE TABLE PROJECT(
     REFERENCES DEPARTMENT(DepartmentName)
     ON UPDATE CASCADE
     );
+CREATE TABLE ASSIGNMENT(
+    ProjectID Int NOT Null,
+    EmployeeNumber Int NOT Null,
+    HoursWorked Numeric(6,2),
+    CONSTRAINT PK_ASSIGNMENT PRIMARY KEY(ProjectID, EmployeeNumber),
+    CONSTRAINT FK_ASSIGN_ASSIGN FOREIGN KEY (ProjectID)
+    REFERENCES PROJECT (ProjectID
+                        ON UPDATE NO ACTION
+                        ON DELETE CASCADE
